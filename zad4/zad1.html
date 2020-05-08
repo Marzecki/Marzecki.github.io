@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8"/>
+        <title>PIW 4</title>
+        <meta name="description" content="Rozwiazanie zadań z laboratorium PIW"/>
+        <meta name="keywords" content="pwr"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <a href="index.html">Powrót do strony głównej</a><br>
+
+        <form name="formularz" onsubmit="start();return false;" >
+            Podaj rozmiar kolejki: <input type="number" value="0" name="number"><br>
+            <input type="submit" value="Start"><br>
+        </form>
+
+        Obsłużono: <span id="licznik"></span> Odrzucono: <span id="odrzuceni"></span>
+
+        <div class="container">
+            <div class="column" style="background-color: rgb(230, 230, 230);">
+                Kolejka:<br>
+                <span id="kolejka"></span>
+            </div>
+            <div class="column" style="background-color: rgb(191, 191, 191);">
+                Urzędznik A:<br>
+                <span id="urzednikA"></span>
+            </div>
+            <div class="column" style="background-color: rgb(153, 153, 153);">
+                Urzędznik B:<br>
+                <span id="urzednikB"></span>
+            </div>
+            <div class="column" style="background-color: rgb(115, 115, 115);">
+                Urzędznik C:<br>
+                <span id="urzednikC"></span>
+            </div>
+        </div>
+        <script src="zad1.js"></script>
+    </body>
+</html>

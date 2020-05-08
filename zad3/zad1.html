@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8"/>
+        <title>PIW 3</title>
+        <meta name="description" content="Rozwiazanie zadań z laboratorium PIW"/>
+        <meta name="keywords" content="pwr"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="canvas_menu">
+            <br>
+            Kształt:<br>
+            <button type="button" id="kwadrat" onclick="wybierzKsztalt(this.id)">Kwadrat</button><br>
+            <button type="button" id="prostokat" onclick="wybierzKsztalt(this.id)">Prostokąt</button><br>
+            <button type="button" id="kolo" onclick="wybierzKsztalt(this.id)">Koło</button><br>
+            <br><br>
+            Wypełnienie:<br>
+            <button type="button" id="wypelnione" onclick="wybierzWypelnienie(this.id)">Wypełnione</button><br>
+            <button type="button" id="niewypelnione" onclick="wybierzWypelnienie(this.id)">Niewypełnione</button><br>
+            <br><br>
+            Kolor:<br>
+            <input type="color" id="kolor">
+            <br><br>
+            <a href="index.html"><button type="button">Powrót</button><br></a>
+        </div>
+        <canvas id="canvas"></canvas>
+        <script src="canvas.js"></script>
+    </body>
+</html>

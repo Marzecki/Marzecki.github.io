@@ -1,0 +1,92 @@
+            body
+            {
+                background-color: #ffcccc;
+            }
+            #container
+            {
+                font-family: 'Baloo Thambi 2', cursive;
+                font-size: large;
+
+                width: 1500px;
+                margin-left: auto;
+                margin-right: auto;               
+            }
+            #logo
+            {
+                background-color: indianred;
+                text-align: center;
+                padding: 10px;
+                font-size: x-large;
+                color: #4d0000;
+                
+            }
+            #nav
+            {
+                float: left;
+                background-color: lightpink;
+                width: 200px;
+                min-height: 550px;
+                padding: 15px;
+                text-align: center;
+            }
+            #content
+            {
+                float: left;
+                padding: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 1000px;
+            }
+            #ad
+            {
+                float:right;
+                background-color: lightpink;
+                width: 200px;
+                min-height: 550px;
+                padding: 15px;
+                text-align: center;
+            }
+            #footer
+            {
+                clear: both;
+                padding: 10px;
+                text-align: center;
+                font-size: small;
+            }       
+            .content-box
+            {
+                background-color: lightpink;
+                height: 300px;
+                width: 100%;
+                margin-bottom: 20px;
+            }     
+            .content-box-img
+            {
+                float: left;
+                width: 50%;
+                height: 100%;
+                text-align: center;
+            }
+            .content-box-text
+            {
+                float: left;
+                width: 50%;
+                height: 100%;
+                text-align: center;
+            }
+            .content-box-form
+            {
+                float: left;
+                width: 50%;
+                height: 100%;
+                text-align: right;
+            }
+            .content-box-response
+            {
+                float: left;
+                width: 50%-5px;
+                height: 100%;
+                text-align: left;
+                margin-left: 5px;
+            }
+          

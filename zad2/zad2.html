@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8"/>
+        <title>PIW 2</title>
+        <meta name="description" content="Rozwiazanie zadań z laboratorium PIW"/>
+        <meta name="keywords" content="pwr"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+        <script src="rownanie_kwadratowe.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="logo">
+                <h1>Projektowanie Interfejsów Webowych</h1>
+            </div>
+            <div id="nav">
+                <a href="index.html">Powrót do strony głównej</a>
+                <br>
+                <br>
+                Zadania:
+                <ul>
+                    <li>
+                        <a href="zad1.html">Formluarz (zad1)</a>
+                    </li>
+                    <li>
+                        <a href="zad2.html">Pierwiastki równania kwadratowego (zad2)</a>
+                    </li>
+                    <li>
+                        <a href="zad3.html">Dynamiczna zmiana obrazka (zad3)</a>
+                    </li>
+                    <li>
+                        <a href="zad4.html">Przegląd dziwnych zwierząt (zad4)</a>
+                    </li>
+                    <li>
+                        <a href="zad5.html">Animacja (zad5)</a>
+                    </li>
+                    <li>
+                        <a href="zad6.html">Gra zręcznościowa (zad6)</a>
+                    </li>
+                </ul>
+                                   
+            </div>
+            <div id="content">
+                <div id="content-box">
+                    <form name="formularz" onsubmit="oblicz(); return false;">
+                        Podaj A, B i C: <br>
+                        (Ax<sup>2</sup>+Bx+C)<br>
+                        A: <input type="text" name="A"><br>
+                        B: <input type="text" name="B"><br>
+                        C: <input type="text" name="C"><br>
+                        <input type="submit" value="ok">
+                    </form>
+                    Wynik: <br>
+                    <span id="wynik"></span><br>
+                </div>
+            </div>
+            <div id="ad">
+                *Tu jakieś reklamy
+            </div>
+            <div id="footer">
+                Made by me &copy;
+            </div>
+        </div>
+    </body>
+</html>
